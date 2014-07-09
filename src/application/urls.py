@@ -38,7 +38,7 @@ app.add_url_rule('/examples/<int:example_id>/delete', view_func=views.delete_exa
 
 @app.route('/')
 def hello():
-    return render_template('simple.html')
+    return render_template('index.html')
 
 ## Error handlers
 # Handle 404 errors
